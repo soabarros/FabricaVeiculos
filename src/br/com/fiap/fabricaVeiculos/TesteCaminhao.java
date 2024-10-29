@@ -11,17 +11,25 @@ public class TesteCaminhao {
 		
 
 		Caminhao Caminhao = new Caminhao();
-		Caminhao.cor = "Prata";
-		Caminhao.marca = "Mercedes";
-		Caminhao.modelo = "A200";
-		Caminhao.aroRodas = 18;
+		Caminhao.corcaminhao = "Prata";
+		Caminhao.marcacaminhao = "Mercedes";
+		Caminhao.modelocaminhao = "A200";
+		Caminhao.arorodas = 18;
 		Caminhao.renavam = 123456789;
-		Caminhao.tipoCambio = "Automatico";
-		Caminhao.nomeCondutor = "Sophia";
-		Caminhao.limitedevelocidade = 300;
-		Caminhao.motor = "163/5500";
+		Caminhao.cambiocaminhao = "Automatico";
+		Caminhao.nomecondutor = "Sophia";
+		Caminhao.velocidade = 300;
+		Caminhao.motorcaminhao = "163/5500";
 		Caminhao.exibirDados();
 
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

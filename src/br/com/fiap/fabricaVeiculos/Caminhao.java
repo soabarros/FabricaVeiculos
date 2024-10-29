@@ -1,10 +1,9 @@
 package br.com.fiap.fabricaVeiculos;
 
 import java.util.Date;
-import java.util.*;
 
 public class Caminhao {
-
+// atributos
 	String marcacaminhao, modelocaminhao, corcaminhao, motorcaminhao, cambiocaminhao, tipodecarga, nomecondutor;
 	Date anoFabricacao = new Date();
 	Date anoModelo = new Date();
@@ -12,7 +11,7 @@ public class Caminhao {
 	double arorodas, velocidade;
 	boolean ligado= false ;
 	
-	
+	//metodos
 	public void carregar (double valor ) {
 		qtcargaabastecida+=valor;
 		if(qtcargaabastecida>qtcargasupotada) {
